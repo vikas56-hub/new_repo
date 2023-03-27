@@ -156,7 +156,7 @@ export const subscribeCourse = async (req, res) => {
       ],
       customer_email: user.email,
       success_url: `${process.env.FRONTEND_URL}/userdash`,
-      cancel_url: `${process.env.FRONTEND_URL}/courses/${courseId}`,
+      cancel_url: `${process.env.FRONTEND_URL}/cancel`,
     });
 
    
